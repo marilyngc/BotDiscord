@@ -5,11 +5,11 @@ import variableEntorno # archivo secreto
 import requests
 import os
 from datetime import datetime
+from dotenv import load_dotenv
 
 
 
-
-
+load_dotenv()
 token = os.getenv("TOKEN");
 
 intents = discord.Intents.default()
