@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 from discord.ui import Button, View
-import variableEntorno # archivo secreto
+
 import requests
 import os
 from datetime import datetime
