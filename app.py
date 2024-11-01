@@ -239,4 +239,4 @@ async def bienvenida(ctx):
 
     await ctx.send(embed=embed, view=view)
 
-bot.run(variableEntorno.TOKEN)
+bot.run(token)
